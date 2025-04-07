@@ -1,0 +1,115 @@
+
+header {
+    padding: 20px;
+}
+.nav-section {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.32);
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 2rem;
+    color: var(--primary-text-color);
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+ul li a {
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-size: 18px;
+}
+
+.button-client-area{
+    display: flex;
+    justify-content: center;
+    width: 10vw;
+}
+
+.btn-navbar {
+    background-color: #00000000;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    padding: 10px 20px;
+    color: var(--primary-text-color);
+    cursor: pointer;
+    transition: .5s ease-out;
+}
+
+.btn-navbar:hover {
+    font-size: 0.9rem;
+    transition: 0.5s ease-in-out;
+}
+
+.tx{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10rem 0 5rem 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+.enterprise__name {
+    color: var(--LOGO-TEXT-COLOR);
+}
+.btn-acao {
+    background-color: #961ba6b4;
+    border: none;
+    font-size: 1.2rem;
+    padding: 1rem 1.3rem;
+    color: var(--primary-text-color);
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.btn-acao:hover{
+    background-color: var(--LOGO-TEXT-COLOR);
+    transition: 0.5s ease-in-out;
+    padding: 1.3rem 1.5rem;
+}
+
+.imagem img {
+    max-width: 300px;
+}
+
+.animation__bar{
+    animation: blinking 1s infinite ;
+}
+
+
+@keyframes blinking{
+
+    0%{
+        color: white;
+    }
+
+    50%{
+        color: rgba(255, 255, 255, 0);
+    }
+
+    100%{
+        color: white;
+    }
+}

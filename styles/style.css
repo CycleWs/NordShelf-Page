@@ -1,0 +1,26 @@
+:root{
+    --primary-color: #2b0654;
+    --secondary-color: #5f4d73;
+    --gradient-color: #553f6e;
+    --tercery-color: #494949;
+    --black-color: #000000;
+    --primary-text-color: #ffffff;
+    --LOGO-TEXT-COLOR: #e83affd0;
+}
+
+* {
+    font-family: Inter, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: var(--primary-text-color);
+    background: linear-gradient(135deg, var(--primary-color), var(--gradient-color));
+
+}
