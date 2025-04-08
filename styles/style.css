@@ -1,3 +1,5 @@
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css');
+
 :root{
     --primary-color: #2b0654;
     --secondary-color: #5f4d73;
@@ -5,7 +7,9 @@
     --tercery-color: #494949;
     --black-color: #000000;
     --primary-text-color: #ffffff;
+    
     --LOGO-TEXT-COLOR: #e83affd0;
+    --CARD-BACKGROUND-COLOR: #1f1f1f;
 }
 
 * {

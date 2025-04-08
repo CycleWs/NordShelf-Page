@@ -2,6 +2,11 @@
 header {
     padding: 20px;
 }
+
+/* .header-class{
+    background-color: black;
+} */
+
 .nav-section {
     display: flex;
     position: fixed;
