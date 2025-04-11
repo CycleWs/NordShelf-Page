@@ -15,11 +15,11 @@
 }
 
 .projects__header h2 span {
-    color: var(--secondary-color); /* roxo */
+    color: var(--secondary-color); 
 }
 
 .projects__header h2 {
-    color: var(--LOGO-TEXT-COLOR); /* vermelho */
+    color: var(--LOGO-TEXT-COLOR); 
 }
 
 .projects__header p {

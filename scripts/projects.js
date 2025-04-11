@@ -70,6 +70,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    updateProjects(); // inicializa
+    updateProjects(); 
 });
 
