@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/services.css">
+    <link rel="stylesheet" href="./styles/projects.css">
     
 </head>
 <body>
@@ -120,6 +121,43 @@
             </div>
         </section>
 
+
+        <section class="projects">
+            <div class="container">
+                <div class="projects__header">
+                    <h2><span>Alguns dos nossos</span> melhores projetos</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum dolore eligendi perferendis ea magnam, dolor quis vero saepe repellat amet necessitatibus officiis illum commodi pariatur blanditiis delectus aperiam porro, possimus aliquid modi voluptates quibusdam voluptatum?</p>
+                </div>
+        
+                <div class="projects__filters">
+                    <button class="filter active" data-filter="lorem">lorem</button>
+                    <button class="filter" data-filter="ipsum">ipsum</button>
+                    <button class="filter" data-filter="dolor">dolor</button>
+                    <button class="filter" data-filter="amet">amet</button>
+                    <button class="filter" data-filter="consectetur">consectetur</button>
+                </div>
+
+                <div class="projects__grid">
+                    <div class="project__card" data-category="lorem"><img src="./assets/PLACEHOLDER.jpg" alt="Projeto 1"></div>
+                    <div class="project__card" data-category="lorem"><img src="./assets/PLACEHOLDER.jpg" alt="Projeto 2"></div>
+                    <div class="project__card" data-category="lorem"><img src="./assets/PLACEHOLDER.jpg" alt="Projeto 3"></div>
+                    <div class="project__card" data-category="lorem"><img src="./assets/PLACEHOLDER.jpg" alt="Projeto 4"></div>
+                    <div class="project__card" data-category="lorem"><img src="./assets/PLACEHOLDER.jpg" alt="Projeto 4"></div>
+
+                    <div class="project__card" data-category="ipsum"><img src="./assets/PLACEHOLDER.jpg" alt="Projeto 1"></div>
+                    <div class="project__card" data-category="ipsum"><img src="./assets/PLACEHOLDER.jpg" alt="Projeto 2"></div>
+                    <div class="project__card" data-category="ipsum"><img src="./assets/PLACEHOLDER.jpg" alt="Projeto 3"></div>
+
+                </div>
+        
+                <div class="projects__pagination">
+                    <button class="btn-pag">Anterior</button>
+                    <span>1 de 4</span>
+                    <button class="btn-pag active">Próximo</button>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer>
@@ -129,5 +167,6 @@
 
     <script src="https://kit.fontawesome.com/2cd738140c.js" crossorigin="anonymous"></script>
     <script src="./scripts/vanilla-tilt.js"></script>
+    <script src="./scripts/projects.js"></script>
 </body>
 </html>

@@ -16,6 +16,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: rgba(128, 128, 128, 0.32);
+    z-index: 1000;
 }
 .logo {
     font-size: 24px;
