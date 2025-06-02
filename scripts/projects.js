@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let currentCategory = "todos";
     let currentPage = 1;
-    const itemsPerPage = 4;
+    const itemsPerPage = 3;
 
     function updateProjects() {
         let visibleCards = cards;

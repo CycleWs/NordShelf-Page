@@ -3,13 +3,25 @@
 :root{
     --primary-color: #2b0654;
     --secondary-color: #5f4d73;
-    --gradient-color: #553f6e;
     --tercery-color: #494949;
+    --fourth-dark-color: #1f1f1f;
+    --gradient-color: #553f6e;
+    --text-dark-color: #ffffff;
+    
+    --main-dark-opacity: #00000099;
     --black-color: #000000;
     --primary-text-color: #ffffff;
     
+    --button-main-color: #961ba6b4;
     --LOGO-TEXT-COLOR: #e83affd0;
     --CARD-BACKGROUND-COLOR: #1f1f1f;
+    
+    --primary-light-color: #f6f2f6;
+    --secondary-light-color: #e1d5d9;
+    --tercery-light-color: #b7a7ae;
+    --fourth-light-color: #58545b;
+    --fifth-light-color: #1c252c;
+
 }
 
 * {
@@ -28,3 +40,47 @@ body {
     background: linear-gradient(135deg, var(--primary-color), var(--gradient-color));
 
 }
+
+/* Variáveis padrão (modo escuro) */
+:root {
+    --primary-color: #2b0654;
+    --secondary-color: #5f4d73;
+    --tercery-color: #494949;
+    --fourth-color: #1f1f1f;
+    --gradient-color: #553f6e;
+    --text-dark-color: #ffffff;
+
+    --projects-background-color: #0f111a;
+    
+    --main-dark-opacity: #00000099;
+    --black-color: #000000;
+    --primary-text-color: #ffffff;
+    
+    --button-main-color: #961ba6b4;
+    --LOGO-TEXT-COLOR: #e83affd0;
+
+    --CARD-BACKGROUND-COLOR: #1f1f1f;
+    --SERVICES-TEXT-COLOR: #ffffff;
+  }
+  
+  /* Modo claro */
+  body.light-mode {
+    --primary-color: #f6f2f6;
+    --secondary-color: #e1d5d9;
+    --tercery-color: #b7a7ae;
+    --fourth-dark-color: #e0e0e0;
+    --gradient-color: #d2b1e1;
+    --text-dark-color: #1a1a1a;
+
+    --projects-background-color:#d2b1e1 ;
+  
+    --main-dark-opacity: #ffffff6f;
+    --black-color: #ffffff;
+    --primary-text-color: #000000;
+  
+    --button-main-color: #a346c8;
+    --LOGO-TEXT-COLOR: #7917b9;
+
+    --CARD-BACKGROUND-COLOR: #1f1f1f;
+    --SERVICES-TEXT-COLOR: #ffffff;
+  }

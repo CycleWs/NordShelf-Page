@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
+    color: var(--text-dark-color);
     padding: 50px 20px;
 }
 .service{
@@ -27,6 +27,7 @@
     grid-template-columns: auto auto auto;
     gap: 3.5rem;
     width: 55vw;
+    color: var(--SERVICES-TEXT-COLOR);
 }
 
 .service__box {
@@ -35,7 +36,6 @@
     padding: 40px 20px 20px; 
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 
 .icon__service{
